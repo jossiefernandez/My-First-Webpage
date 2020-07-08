@@ -1,10 +1,76 @@
-h1{
-    color: darkorange;
+nav{
+    color: white;
+    background: gray;
+    padding: 20px;
+    font-size: 20px;
 }
 
+h1{
+    color: turquoise;
+    font-size: 65px;
+    background: blue;
+    padding: 20px;
+}
 h2{
     color: red;
 }
 h3{
-    color: darkmagenta;
+    color: white;
+    background: darkmagenta;
+    margin: 10px 700px 10px 0px;
+    padding: 20px;
+}
+
+.section1{
+    display: flex;
+    width: 20%;
+}
+.columnas{
+    background: coral;
+    color: turquoise;
+    padding: 14px;
+    margin: 10px;
+    width: 100%;
+}
+
+button{
+    background: blue;
+    color: turquoise;
+    width: 100px;
+    height: 50px;
+}
+/*CUANDO EL MOUSE ESTE ENCIMA*/
+button:hover{
+    background: darkblue;
+}
+/*CUANDO HAGA CLICK*/
+button:active{
+    background: coral;
+}
+
+/*Pasar un elemento de BLOQUE a de LINEA*/
+h3{
+    display: inline-block;
+}
+
+/*Pasar un elemento de LINEA a de BLOQUE*/
+a{
+    display: block;
+}
+
+.sapri{
+    color: blueviolet;
+    font-size: large;
+}
+.lda{
+    color: red;
+    font-size: large;
+}
+.heredia{
+    color: yellow;
+    font-size: large;
+}
+.cartago{
+    color: blue;
+    font-size: large;
 }
