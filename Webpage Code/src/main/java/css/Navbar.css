@@ -1,0 +1,52 @@
+.nav1{
+    background: darkcyan;
+    display: inline-block;
+    padding: 1%;
+    color: white;
+    font-style: italic;
+    font-size: large;
+    text-decoration: none;
+}
+
+.nav1:hover{
+    background: gray;
+}
+
+nav{
+    font-size: 30px;
+    display: flex;
+    background: darkblue;
+    justify-content: space-around;
+}
+
+.navButtom{
+    background: darkcyan;
+    display: none;
+    padding: 1%;
+    margin: 1%;
+    color: darkblue;
+    font-style: oblique;
+    font-size: large;
+    text-decoration: none;
+    border: 3px solid lightseagreen;
+}
+
+.navButtom:hover{
+    background: lightseagreen;
+}
+
+@media (max-width: 600px){
+    nav{
+        background: darkblue;
+        flex-direction: column;
+    }
+    .nav1{
+        margin: 5px;
+    }
+    .navButtom{
+        display: inline-block;
+    }
+    .desaparecer{
+        display: none;
+    }
+}
