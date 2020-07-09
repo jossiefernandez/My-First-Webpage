@@ -8,13 +8,23 @@
 <body>
 
 <nav>
-    <button class="navButtom">Menu</button>
+    <button class="navButtom" onclick="showButtom()">Menu</button>
     <a href="#" class="nav1 desaparecer">Inicio</a>
     <a href="#" class="nav1 desaparecer">Nosotros</a>
     <a href="#" class="nav1 desaparecer">Informacion</a>
     <a href="#" class="nav1 desaparecer">Contacto</a>
     <a href="#" class="nav1 desaparecer">Buscar</a>
 </nav>
+
+<script>
+    function showButtom() {
+        console.log("showButtom function started");
+        const ancla = document.getElementsByClassName("nav1");
+        for(var i = 0; i < ancla.length; i++){
+            ancla[i].classList.toggle("desaparecer");
+        }
+    }
+</script>
 
 </body>
 </html>
