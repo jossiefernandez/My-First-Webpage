@@ -4,15 +4,46 @@ body{
 
 h1{
     font-weight: 600;
+    color: darkblue;
 }
 
 .TableSection{
     display: flex;
     text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
 }
 
-.TableDivision{
-    margin: 0 auto;
-    width: 90%;
+.Column{
+    margin: 5px 10px;
+    background: #e1e1e1;
+    color: darkblue;
+    border: 3px solid gray;
+    border-radius: 50px;
+    padding: 50px;
+    box-shadow: 10px 10px 10px darkgray;
+}
 
+.Price{
+    color: dodgerblue;
+    font-size: 40px;
+}
+
+.ComprarBtn{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    background: gray;
+    color: cyan;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.ComprarBtn:hover{
+    background: lightslategray;
+}
+
+.ComprarBtn:active{
+    background: darkblue;
 }
