@@ -1,4 +1,18 @@
+body{
+    font-family: 'Galada', cursive;
+}
+
+h1{
+    font-weight: 600;
+}
+
+.TableSection{
+    display: flex;
+    text-align: center;
+}
+
 .TableDivision{
     margin: 0 auto;
     width: 90%;
+
 }
