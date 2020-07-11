@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    background: black;
+    flex-wrap: wrap;
+
+}
+
+.header{
+    background: lightslategray;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.section{
+    background: goldenrod;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.article{
+    background: dodgerblue;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.aside{
+    background: darkmagenta;
+    padding: 20px;
+    flex-basis: 100%;
+
+}
+
+.derecha{background: coral;}
+
+.footer{
+    background: lightslategray;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+@media all and (min-width: 600px){
+    .aside{flex: 1 1 auto;}
+}
+
+@media all and (min-width: 800px){
+    .article{flex: 2 0;}
+    .izquierda{order: 1;}
+    .article{order: 2;}
+    .derecha{order: 3;}
+    .footer{order: 4;}
+}
