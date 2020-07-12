@@ -71,6 +71,8 @@ a{
         }
         h1{
             background: yellow;
+            font-size: 25px;
+            color: darkorange;
         }
 
     .Section{
@@ -91,14 +93,22 @@ a{
                 background: aquamarine;
                 flex: 1 1 100%;
             }
+            .NavSection a{
+                color: darkblue;
+            }
+            .NavSection a:hover{
+                color: rosybrown;
+            }
         .Aside{
             background: darkmagenta;
             display: flex;
             flex-direction: column;
             flex: 1 1 auto;
+            justify-content: center;
         }
             .Publicity{
                 background: blueviolet;
+                font-size: 200px;
             }
 
     .Footer{
@@ -109,6 +119,9 @@ a{
         .NavFooter{
             background: darkcyan;
             width: 40%;
+        }
+        .NavFooter a{
+            color: dimgray;
         }
 
 @media all and (max-width: 800px)  {
