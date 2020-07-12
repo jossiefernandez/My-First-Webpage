@@ -5,22 +5,38 @@
 }
 
 .Father{
+    display: flex;
+    flex-flow: column nowrap;
 }
 
     .Header{
         background: black;
+        display: flex;
+        flex-flow: column nowrap;
     }
         .Menu{
             background: cornflowerblue;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
         }
         .Logo{
             background: coral;
+            flex: 1 1 auto;
+            height: 30px;
         }
         .Nav{
             background: coral;
+            flex: 5 1 auto;
+            height: 30px;
+
         }
         .Social{
             background: coral;
+            flex: 1 1 auto;
+            height: 30px;
+
         }
         .MainTittle{
             background: goldenrod;
@@ -31,18 +47,27 @@
 
     .Section{
         background: black;
+        display: flex;
     }
         .DivArticles{
             background: green;
+            display: flex;
+            flex: 2 1 auto;
+            flex-flow: row wrap;
         }
             .Article{
                 background: mediumseagreen;
+                flex: 1 1 45%;
             }
             .NavSection{
                 background: aquamarine;
+                flex: 1 1 100%;
             }
         .Aside{
             background: darkmagenta;
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 auto;
         }
             .Publicity{
                 background: blueviolet;
@@ -50,7 +75,30 @@
 
     .Footer{
         background: black;
+        display: flex;
+        justify-content: center;
     }
         .NavFooter{
             background: darkcyan;
+            width: 40%;
         }
+
+@media all and (max-width: 800px)  {
+    .Menu{
+        flex-direction: column;
+        height: auto;
+    }
+    .Section{
+        flex-direction: column;
+    }
+    .Aside{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .DivArticles{
+        flex-direction: column;
+    }
+}
