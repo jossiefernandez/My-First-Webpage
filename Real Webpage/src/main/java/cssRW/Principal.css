@@ -1,0 +1,56 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Father{
+}
+
+    .Header{
+        background: black;
+    }
+        .Menu{
+            background: cornflowerblue;
+        }
+        .Logo{
+            background: coral;
+        }
+        .Nav{
+            background: coral;
+        }
+        .Social{
+            background: coral;
+        }
+        .MainTittle{
+            background: goldenrod;
+        }
+        h1{
+            background: yellow;
+        }
+
+    .Section{
+        background: black;
+    }
+        .DivArticles{
+            background: green;
+        }
+            .Article{
+                background: mediumseagreen;
+            }
+            .NavSection{
+                background: aquamarine;
+            }
+        .Aside{
+            background: darkmagenta;
+        }
+            .Publicity{
+                background: blueviolet;
+            }
+
+    .Footer{
+        background: black;
+    }
+        .NavFooter{
+            background: darkcyan;
+        }
