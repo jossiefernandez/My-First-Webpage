@@ -64,30 +64,43 @@ a{
                 color: rosybrown;
             }
         .MainTittle{
-            background: goldenrod;
-            font-size: 50px;
             display: flex;
+            height: 580px;
+            align-items: center;
             justify-content: center;
         }
         h1{
-            background: yellow;
+            font-size: 55px;
+            color: goldenrod;
+            font-weight: 300;
+            line-height: 2.6;
+            text-align: center;
+        }
+        .Carrito a{
+            text-align: end;
             font-size: 25px;
-            color: darkorange;
+            color: red;
+        }
+        .Carrito a:hover{
+            color: darkred;
         }
 
     .Section{
         background: black;
         display: flex;
     }
+
         .DivArticles{
-            background: green;
+            background: lightgoldenrodyellow;
             display: flex;
             flex: 2 1 auto;
             flex-flow: row wrap;
         }
             .Article{
-                background: mediumseagreen;
                 flex: 1 1 45%;
+                color: goldenrod;
+                font-size: 12px;
+                letter-spacing: 1px;
             }
             .NavSection{
                 background: aquamarine;
