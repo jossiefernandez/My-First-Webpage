@@ -1,10 +1,15 @@
 *{
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: 'Merienda One', cursive;
+}
+
+.Margen{
+    padding: 0 30px;
 }
 
 a{
@@ -17,7 +22,7 @@ a{
 }
 
     .Header{
-        background: url("../../images/boot-ball.jpg");
+        background: url("../../images/font2.jpg");
         background-position: center;
         background-attachment: contain;
         background-size: cover;
@@ -25,7 +30,7 @@ a{
         flex-flow: column nowrap;
     }
         .Menu{
-            background: rgb(0, 0, 0, 0.3);
+            background: rgb(0, 0, 0, 0.5);
             border-bottom: 2px solid rgb(255, 255, 255, 0.5);
             display: flex;
             flex-flow: row nowrap;
@@ -35,7 +40,7 @@ a{
         .Logo{
             flex: 1 1 auto;
             color: darkslategrey;
-            font-size: 30px;
+            font-size: 25px;
         }
         .Nav{
             flex: 5 1 auto;
@@ -71,11 +76,12 @@ a{
         }
         h1{
             font-size: 55px;
-            color: goldenrod;
+            color: #d8392c;
             font-weight: 300;
             line-height: 2.6;
             text-align: center;
         }
+
         .Carrito a{
             text-align: end;
             font-size: 25px;
@@ -86,55 +92,110 @@ a{
         }
 
     .Section{
-        background: black;
+        background: #d8d8d8;
         display: flex;
     }
-
+        h3{
+            color: gold;
+            font-size: 12px;
+            margin-top: -80px;
+            padding: 5px 0;
+        }
+        h2{
+            font-size: 25px;
+            color: gold;
+            text-transform: uppercase;
+            padding: 0px 0px 10px 0px;
+        }
         .DivArticles{
-            background: lightgoldenrodyellow;
+            background: #d8d8d8;
             display: flex;
             flex: 2 1 auto;
             flex-flow: row wrap;
+
         }
             .Article{
-                flex: 1 1 45%;
-                color: goldenrod;
+                flex: 1 1 40%;
+                color: black;
                 font-size: 12px;
                 letter-spacing: 1px;
+                margin: 10px 10px 0px 0px;
+                background: #c8c8c8;
             }
+                .Article img{
+                    width: 100%;
+                }
+                .Article a{
+                    color: white;
+                    background: black;
+                    padding: 10px;
+                    margin: 10px 0;
+                    display: inline-block;
+                }
+                .Article a:hover{
+                    background: gray;
+                }
             .NavSection{
-                background: aquamarine;
+                background: black;
                 flex: 1 1 100%;
+                margin: 10px 10px 0px 0;
+                justify-content: center;
+                display: flex;
+                flex-flow: row;
             }
             .NavSection a{
-                color: darkblue;
+                color: white;
+                font-size: 12px;
+                text-transform: uppercase;
+                padding: 10px;
+                margin-top: 5px;
+                letter-spacing: 4px;
             }
             .NavSection a:hover{
                 color: rosybrown;
             }
         .Aside{
-            background: darkmagenta;
+            /*background: #d8d8d8;*/
             display: flex;
             flex-direction: column;
             flex: 1 1 auto;
             justify-content: center;
+            margin: 10px 5px 10px 0;
+        }
+        .Aside img{
+            width: 100%;
+        }
+        h4{
+            color: black;
+            text-transform: uppercase;
+            padding: 10px;
+            background: gray;
+            font-size: 12px;
         }
             .Publicity{
-                background: blueviolet;
-                font-size: 200px;
+                background: black;
+                font-size: 220px;
+                color: white;
+                letter-spacing: 4px;
             }
 
     .Footer{
         background: black;
         display: flex;
         justify-content: center;
+        margin-top: 10px;
+
     }
         .NavFooter{
-            background: darkcyan;
-            width: 40%;
+            text-align: center;
         }
         .NavFooter a{
-            color: dimgray;
+            color: white;
+            font-size: 10px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-style: oblique;
+            padding: 0 10px;
         }
 
 @media all and (max-width: 800px)  {
