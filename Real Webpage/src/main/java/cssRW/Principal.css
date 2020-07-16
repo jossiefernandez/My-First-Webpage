@@ -80,6 +80,8 @@ a{
             font-weight: 300;
             line-height: 2.6;
             text-align: center;
+            font-style: oblique;
+            text-shadow: 7px 4px 5px gold;
         }
 
         .Carrito a{
@@ -125,6 +127,9 @@ a{
                 .Article img{
                     width: 100%;
                 }
+                .Article img:hover{
+                    opacity: 0.7;
+                }
                 .Article a{
                     color: white;
                     background: black;
@@ -148,7 +153,7 @@ a{
                 font-size: 12px;
                 text-transform: uppercase;
                 padding: 10px;
-                margin-top: 5px;
+                margin-top: 10px;
                 letter-spacing: 4px;
             }
             .NavSection a:hover{
@@ -190,7 +195,7 @@ a{
             text-align: center;
         }
         .NavFooter a{
-            color: white;
+            color: #d8d8d8;
             font-size: 10px;
             letter-spacing: 3px;
             text-transform: uppercase;
@@ -198,9 +203,10 @@ a{
             padding: 0 10px;
         }
 
-@media all and (max-width: 800px)  {
+@media all and (max-width: 950px)  {
     .Menu{
-        flex-direction: column;
+        display: none;
+/*        flex-direction: column;*/
         height: auto;
     }
     .Section{
@@ -210,10 +216,17 @@ a{
         flex-direction: row;
         justify-content: space-around;
     }
+    .MainTittle{
+        height: 530px;
+    }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 710px) {
     .DivArticles{
         flex-direction: column;
+    }
+    .Off{
+        display: none;
+        font-size: 30px;
     }
 }
